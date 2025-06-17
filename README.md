@@ -86,6 +86,8 @@ cp config.example.js config.js
 
 ### 3. Data Processing Pipeline
 
+**⚠️ Important**: The final processed dataset (`data/processed_green_space_advanced.geojson`) is not included in this repository due to GitHub's 100MB file size limit. You must run the data processing pipeline to generate it locally.
+
 Run the complete data preparation pipeline:
 
 ```bash
@@ -103,7 +105,7 @@ python scripts/finalize_dataset.py
 ```
 
 **Expected Output:**
-- ✅ `data/processed_green_space_advanced.geojson` (4,067 postcode areas)
+- ✅ `data/processed_green_space_advanced.geojson` (4,067 postcode areas, ~179MB)
 - ✅ Complete dataset with trivariate colors, balance scores, and CBS demographics
 
 ### 4. Launch Dashboard
