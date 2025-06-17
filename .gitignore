@@ -66,6 +66,7 @@ data/pc4_nl.geojson
 data/merged_green_space_base.geojson
 data/green_space_with_metrics.geojson
 data/green_space_with_cbs*.geojson
+data/processed_green_space_advanced.geojson
 
 # Jupyter Notebooks
 .ipynb_checkpoints
