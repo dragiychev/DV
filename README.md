@@ -273,17 +273,6 @@ window.CONFIG_SECRETS = CONFIG_SECRETS;
 - **Plotly.js v2.26.0** - Statistical charts and data visualization
 - **Modern CSS Grid** - Responsive layout without external frameworks
 
-## 🎓 Educational Value
-
-This project demonstrates advanced concepts in:
-
-1. **Multi-Dimensional Data Visualization**: Trivariate choropleth mapping
-2. **Full-Stack Geospatial Development**: Python backend with JavaScript frontend
-3. **Statistical Analysis**: Balance score calculation and correlation analysis
-4. **Data Integration**: Combining multiple government datasets (CBS + OpenDataSoft)
-5. **User Experience Design**: Intuitive multi-view interface with linked interactions
-6. **Environmental Data Science**: Green space analysis for urban planning
-
 ## 📈 Potential Extensions
 
 - **Temporal Analysis**: Historical green space changes over multiple years
@@ -299,32 +288,9 @@ This project demonstrates advanced concepts in:
 python app.py  # Starts server on http://localhost:5010
 ```
 
-### Production Deployment
-For production deployment, consider:
-- Using Gunicorn or uWSGI for the Flask application
-- Setting up reverse proxy with Nginx
-- Implementing proper logging and error handling
-- Adding rate limiting for API endpoints
-
 ## 📄 License
 
 MIT License - Feel free to use this project for educational, research, or commercial purposes.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📞 Support
-
-For questions about the implementation or to report issues:
-- Review the code documentation in source files
-- Check the data processing pipeline in the `scripts/` directory
-- Examine the API endpoints in `app.py`
-- Study the frontend interaction logic in `static/script.js`
 
 ---
 
